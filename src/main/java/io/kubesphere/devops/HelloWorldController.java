@@ -16,4 +16,9 @@ public class HelloWorldController {
     public String sayHello() {
         return "Really appreciate your star, that's the power of our life. v1";
     }
+    
+    @RequestMapping("/user")
+    public String getUserInfo() {
+        return "userInfo:vincentzou";
+    }
 }
